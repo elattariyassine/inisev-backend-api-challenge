@@ -1,6 +1,9 @@
 ## Inisev backend challenge
 My own implementation to the insev backend challenge.
 
+## Simple DB diagram
+![](docs/db_simple_diagram.png)
+
 ## Implemented features
 * [x] Endpoint to create a "post" for a "particular website".
 * [x] Endpoint to make a user subscribe to a "particular website" with all the tiny validations included in it.
