@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "12bf6d46-4de6-47cc-8c03-2b53174ef67e",
+		"name": "Insiv backend challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create post",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true,
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Post title 2\",\n    \"description\": \"Post description 2\",\n    \"website_id\": 1\n}"
+				},
+				"url": {
+					"raw": "localhost/api/posts",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subscribe user to website",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true,
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user_id\": 1\n}"
+				},
+				"url": {
+					"raw": "localhost/api/websites/1/subscribe",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"websites",
+						"1",
+						"subscribe"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
