@@ -28,7 +28,7 @@ Nb: In this project I used database driver to store the queued notifications, so
 ``php artisan queue:work``.
 
 ## Testing
-In this file [doc/postman_collection.json](docs/postman_collection.json) you will find the postman collection that you can import into your local postman app and test the api.
+In this file [docs/postman_collection.json](docs/postman_collection.json) you will find the postman collection that you can import into your local postman app and test the api.
 
 
 
